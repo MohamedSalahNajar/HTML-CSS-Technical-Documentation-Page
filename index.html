@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML & CSS Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>This page is a beginner-friendly guide to HTML and CSS. It explains the basic ideas of building web pages and styling them.</p>
+      </section>
+
+      <section class="main-section" id="html_basics">
+        <header>HTML Basics</header>
+        <p>HTML (HyperText Markup Language) is the structure of webpage. It uses <code>&lt;tags&gt;</code>to tell the browser what each part of the page.</p>
+        <p>For example, a heading can be written like this:</p>
+        <pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></pre>
+      </section>
+    
+      <section class="main-section" id="html_elements" >
+        <header>HTML Elements</header>
+        <p>Some commen elements in HTML are:</p>
+        <ul>
+          <li><code>&lt;p&gt;</code> → Paragraph</li>
+          <li><code>&lt;a&gt;</code> → Link</li>
+          <li><code>&lt;img&gt;</code> → Image</li>
+          <li><code>&lt;div&gt;</code> → Division</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="css_basics">
+        <header>CSS Basics</header>
+        <p>CSS (Cascading Style Sheets) is used to make HTML look nicer. It controls colrs, spacing, fonts and layouts.</p>
+        <p>Exemple of changing text color:</p>
+        <pre><code>p {
+  color: blue;
+}</code></pre>
+      </section>
+
+      <section class="main-section" id="css_selectors">
+        <header>CSS Selectors</header>
+        <p>Selectors are used to choose which HTML elements to style. Some common ones are:</p>
+        <ul>
+          <li><code>p</code> → selects all paragraphs</li>
+          <li><code>#id</code> → selects an element with a specific id</li>
+          <li><code>.class</code> → selects all elements with that class</li>
+        </ul>
+      </section>
+      <section class="main-section" id="conclusion">
+        <header>Conclusion</header>
+        <p>HTML gives a webpage structure and CSS makes it look good</p>
+        <p>Learning both i sthe first step in web development</p>
+        <p>When you feel like you mastred the basics you can move on to more advancced stuff or start learning <a href="https://technical-documentation-page.freecodecamp.rocks">JavaScript</a></p>
+      </section>
+      <nav id="navbar">
+        <header>HTML & CSS Docs</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#html_basics">HTML Basics</a>
+        <a class="nav-link" href="#html_elements">HTML Elements</a>
+        <a class="nav-link" href="#css_basics">CSS Basics</a>
+        <a class="nav-link" href="#css_selectors">CSS Selectors</a>
+        <a class="nav-link" href="#conclusion">Conclusion</a>
+      </nav>
+    </main>
+  </body>
+</html>
